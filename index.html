@@ -21,6 +21,8 @@
         extend: {
           colors: {
             clifford: '#da373d',
+            'primary': '#F00',
+            'secondary': '#FF8938',
           }
         }
       }
@@ -36,7 +38,7 @@
 
 <body class="font-manrope">
   <!-- header section start -->
-  <header class="container mx-auto">
+  <header class="container mx-auto px-8">
     <div class="flex flex-col lg:flex-row justify-between items-center px-5 lg:px-0">
       <div class="lg:max-w-[48%] md:w-2/3">
         <h1 class="text-4xl lg:text-7xl font-extrabold opacity-80 my-6">It's good
@@ -44,7 +46,7 @@
         <p class="text-lg font-medium opacity-80">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
           Taste Buds.</p>
         <div
-          class="btn text-lg font-semibold uppercase bg-gradient-to-l from-[#F00] to-[#FF8938] opacity-80 text-white my-6">
+          class="btn text-lg font-semibold uppercase bg-gradient-to-l from-primary to-secondary opacity-80 text-white my-6">
           <button>Explore More</button>
           <div>
             <img src="./images/arrow.png" alt="">
@@ -66,58 +68,83 @@
   </header>
   <!-- header section end -->
   <!-- main section start -->
-  <main class="container mx-auto">
-    <!-- feature section -->
-    <section class="text-center space-y-16">
-     <div class="lg:w-3/5 mx-auto space-y-5">
-      <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
-      <p class="text-base font-medium opacity-70 ">There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
-        even slightly believable.</p>
-     </div>
+  <main class="container mx-auto px-8">
+    <!-- feature section start -->
+    <section class="text-center space-y-16 my-8 lg:my-24">
+      <div class="lg:w-3/5 mx-auto space-y-5">
+        <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
+        <p class="text-base font-medium opacity-70 ">There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+          even slightly believable.</p>
+      </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Tea 1 -->
-        <div class="bg-gradient-to-r from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-8 rounded-lg">
+        <div class="bg-gradient-to-b from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-7 rounded-lg">
           <div class="flex justify-center">
             <img src="./images/tea-1.png" alt="">
           </div>
-          <div class="space-y-3">
+          <div class="space-y-3 w-52 lg:w-auto xl:w-52 mx-auto">
             <h4 class="text-2xl font-extrabold">Milk Tea</h4>
             <p class="text-base opacity-70">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
         <!-- Tea 2 -->
-        <div class="bg-gradient-to-r from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-8 rounded-lg">
+        <div class="bg-gradient-to-b from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-7 rounded-lg">
           <div class="flex justify-center">
             <img src="./images/tea-2.png" alt="">
           </div>
-          <div class="space-y-3">
+          <div class="space-y-3 w-52 lg:w-auto xl:w-52 mx-auto">
             <h4 class="text-2xl font-extrabold">Black Tea</h4>
             <p class="text-base opacity-70">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
         <!-- Tea 3 -->
-        <div class="bg-gradient-to-r from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-8 rounded-lg">
+        <div class="bg-gradient-to-b from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-7 rounded-lg">
           <div class="flex justify-center">
             <img src="./images/tea-3.png" alt="">
           </div>
-          <div class="space-y-3">
+          <div class="space-y-3 w-52 lg:w-auto xl:w-52 mx-auto">
             <h4 class="text-2xl font-extrabold">Lemon Tea</h4>
             <p class="text-base opacity-70">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
         <!-- Tea 4 -->
-        <div class="bg-gradient-to-r from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-8 rounded-lg">
+        <div class="bg-gradient-to-b from-[#f0f0f0] to-[rgba(244, 244, 244, 0.00)] space-y-7 p-7 rounded-lg">
           <div class="flex justify-center">
             <img src="./images/tea-4.png" alt="">
           </div>
-          <div class="space-y-3">
+          <div class="space-y-3 w-52 lg:w-auto xl:w-52 mx-auto">
             <h4 class="text-2xl font-extrabold">Green Tea</h4>
             <p class="text-base opacity-70">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
       </div>
     </section>
+    <!-- feature section end -->
+    <!-- great Tea start -->
+    <section class="my-24">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:w-[48%]">
+          <div class="h-32 bg-gradient-to-r from-primary to-secondary opacity-10 rounded-lg"></div>
+          <div class="row-span-2 rounded-lg bg-[#E6A6231A]">
+            <img class="mx-auto py-9" src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="row-span-2 bg-[#5776391A] rounded-lg">
+            <img class="mx-auto py-9" src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="h-32 bg-gradient-to-r from-[#D9D9D9] to-[rgba(255, 255, 255, 0.00)] rounded-lg"></div>
+        </div>
+        <div class="lg:w-[48%] mt-8 lg:mt-0 text-center lg:text-left">
+          <h2 class="text-3xl lg:text-5xl font-extrabold mb-5">Great Tea, Freshly Presented</h2>
+          <p class="text-base font-medium mb-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <h5 class="text-xl font-extrabold mb-2">Unique Taste</h5>
+          <p class="text-base font-medium mb-5">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <h5 class="text-xl font-extrabold mb-2">Premium Quality</h5>
+          <p class="text-base font-medium">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+      </div>
+    </section>
+    <!-- great Tea end -->
   </main>
   <!-- main section end -->
   <!-- footer section start -->
